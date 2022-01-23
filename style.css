@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*********************MENU************************************/
+nav {
+    background-color: #5DADE2 ;
+    /*opacity: 0.6;*/
+/*************************INCIO*****************************/    
+}
+.contenido {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.quienesSomosPadre {
+    padding-bottom: 6rem;
+}
+.quienesSomosHijo1{
+    width: 25rem;
+    text-align: justify;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+}
+.quienesSomosHijo1 h6{
+    opacity: 0.8;
+}
+.quienesSomosHijo2 img {
+    width: 24rem;
+}
+.misionPadre{
+    text-align: left;
+    padding-bottom: 6rem;
+    margin-left: auto;
+    
+}
+.misionHijo1 {
+    width: 25rem;
+    text-align: justify;  
+    padding-bottom: 1rem;
+    
+}
+
+
+.misionHijo2 img{
+    width: 24rem;
+}
+.visionPadre {
+    padding-bottom: 6rem;
+}
+.visionHijo1 {
+    width: 25rem;
+    text-align: justify;
+    padding-bottom: 1rem;   
+}
+.visionHijo2 img {
+    width: 24rem;
+}
+.eslogan {
+    text-align: center;
+    opacity: 0.1;
+    padding-bottom: 4rem;
+}
+
+/*******************************************TRATAMIENTOS***************************************/
+.contenidoTratamientos {
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+    
+    
+}
+
+.prueba {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 4rem;
+}
+
+/******************************************PROMOCIONES******************************************/
+.contenidoPromociones{
+    padding-top: 4rem;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 4rem;
+}
+.contenidoPromocionesHijo1 img {
+    width: 50rem;
+    opacity: 0.7;
+    border-radius: 1rem;
+    
+    
+}
+.contenidoPromocionesHijo2 {
+    text-align: justify;
+    margin-left: 4rem;
+    margin-top: 9rem;
+}
+/****************************************SUCURSALES*******************************************************/
+.contenidoSucursales{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 4rem;
+}
+.SucursalHijo1 {
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+}
+/*****************************************CONTACTANOS***************************************************/
+.row{
+    padding-bottom: 3rem;
+}
+.labels {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+.radios {
+    padding-top: 4rem;
+}
+
+.notas {
+    padding-bottom: 4rem;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2rem;
+}
+.botonEnviar  {
+    margin-right: 3rem;
+}
+
+
+
+/**************************************FOOTER****************************************/
+.footer {
+    background-color: #5DADE2;
+    color: white;
+    padding-top: 3rem;
+
+}
+
+
+.footer__flex{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.sucursal1 {
+    flex-direction: column;
+}
+.footer__menu {
+    list-style: none;
+    
+}
+
+.footer__menu a {
+    text-decoration: none;
+}
+
+.footer__credito {
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 0.7rem;
+
+}
